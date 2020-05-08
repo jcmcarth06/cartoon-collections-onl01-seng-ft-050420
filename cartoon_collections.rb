@@ -14,7 +14,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(long_words)
-  long_planeteer_calls.collect do |name|
+  long_planeteer_calls do |name|
     if name.length >= 4
       puts "#{name}"
   end
