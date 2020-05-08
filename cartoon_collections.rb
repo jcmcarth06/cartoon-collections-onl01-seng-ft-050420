@@ -30,7 +30,7 @@ def find_the_cheese(cheese_types)# code an argument here
     if name.include?(cheese_types)
       return "#{name}"
     end
-  
+
   end
   nil
 end
