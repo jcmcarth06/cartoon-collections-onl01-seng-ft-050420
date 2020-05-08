@@ -8,10 +8,10 @@ end
 
 def summon_captain_planet(planeteer_calls)
 
-  planeteer_calls.collect do |name| 
+  planeteer_calls.collect do |name|
     name.capitalize + "!"
   end
-  #figure out veggie calls capitalize and exclamation point, 
+  #figure out veggie calls capitalize and exclamation point,
   #same number of elements it was given
 end
 
