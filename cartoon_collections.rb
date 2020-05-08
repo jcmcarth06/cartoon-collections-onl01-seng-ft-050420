@@ -8,9 +8,9 @@ end
 
 def summon_captain_planet(planeteer_calls)
 
-  planeteer_calls.map { |name| }
+  planeteer_calls.map { |fruits| name.capitalize }
 
-  names.each { |name| puts name + "!"}# code an argument here
+  names.each { |fruits| puts name + "!"}# code an argument here
   # Your code here
 end
 
