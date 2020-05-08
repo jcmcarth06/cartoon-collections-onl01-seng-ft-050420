@@ -1,3 +1,4 @@
+require 'pry'
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   dwarves.each_with_index do |name, index|
@@ -14,10 +15,10 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(calls_long)
+  binding.pry 
   calls_long.collect do |name|
     if name.length > 4
       return true
-    
     end
   end
   return false
