@@ -11,12 +11,15 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |name|
     name.capitalize + "!"
   end
-  #figure out veggie calls capitalize and exclamation point,
-  #same number of elements it was given
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(long_words)
+  long_planeteer_calls.collect do |name|
+    name.length >= 4
+    
+  # code an argument here
   # Your code here
+  long
 end
 
 def find_the_cheese# code an argument here
