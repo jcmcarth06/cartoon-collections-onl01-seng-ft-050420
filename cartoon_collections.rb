@@ -11,15 +11,12 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.each { |fruits| puts fruits + "!"}
   planeteer_calls.each do |i|
     i = 0
+    binding.pry
     while i = < planeteer_calls.length
-      word[i] = word[i].upcase
+      .upcase
 
       i += 1
     end
-
-
-  # code an argument here
-  # Your code here
 end
 
 def long_planeteer_calls# code an argument here
