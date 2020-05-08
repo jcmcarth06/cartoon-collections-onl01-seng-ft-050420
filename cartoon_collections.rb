@@ -9,14 +9,9 @@ end
 def summon_captain_planet(planeteer_calls)
 
   planeteer_calls.each { |fruits| puts fruits + "!"}
-  planeteer_calls.each do |i|
-    i = 0
-    binding.pry
-    while i = < planeteer_calls.length
-      .upcase
-
-      i += 1
-    end
+  planeteer_calls.each { |veggies| puts veggies.first.upcase + "!"
+      } 
+    
 end
 
 def long_planeteer_calls# code an argument here
