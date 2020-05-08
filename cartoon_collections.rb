@@ -15,7 +15,8 @@ end
 
 def long_planeteer_calls(long_words)
   long_planeteer_calls.collect do |name|
-    name.length >= 4
+    if name.length >= 4
+      puts "#{name}"
   end
 
   # code an argument here
