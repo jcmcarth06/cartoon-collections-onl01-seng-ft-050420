@@ -16,8 +16,7 @@ end
 def long_planeteer_calls(calls_long)
   calls_long.collect do |name|
     if name.length > 4
-      puts "#{name}"
-    else
+      return "#{name}"
   end
 end
 
