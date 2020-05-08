@@ -6,7 +6,11 @@ def roll_call_dwarves(dwarves)# code an argument here
   end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(planeteer_calls)
+
+  planeteer_calls.map { |name| }
+
+  names.each { |name| puts name + "!"}# code an argument here
   # Your code here
 end
 
