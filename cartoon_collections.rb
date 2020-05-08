@@ -10,7 +10,7 @@ def summon_captain_planet(planeteer_calls)
 
   planeteer_calls.each { |fruits| puts fruits + "!"}
   planeteer_calls.each { |veggies| puts veggies.first.upcase + "!"
-      } 
+      }
     
 end
 
