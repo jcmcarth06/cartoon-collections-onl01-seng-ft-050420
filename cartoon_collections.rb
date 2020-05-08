@@ -16,6 +16,7 @@ end
 def long_planeteer_calls(calls_long)
   calls_long.each do |name|
     if name.length > 4
+    elsif nil
     end
   end
 
