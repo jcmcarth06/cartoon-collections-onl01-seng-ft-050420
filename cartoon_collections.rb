@@ -1,4 +1,4 @@
-require 'pry'
+
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   dwarves.each_with_index do |name, index|
@@ -25,6 +25,6 @@ end
 
 def find_the_cheese(cheese)# code an argument here
   # the array below is here to help
-  binding.pry
+  cheese.collect do |name|
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
