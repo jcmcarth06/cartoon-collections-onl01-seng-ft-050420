@@ -10,8 +10,7 @@ def summon_captain_planet(planeteer_calls)
 
   planeteer_calls.map { |fruits| fruits.capitalize }
   planeteer_calls.each { |fruits| puts fruits + "!"}
-  planeteer_calls.map { |veggies| veggies.upcase }
-  planeteer_alls.each { |veggies| puts veggies + "!"}
+  
 
   # code an argument here
   # Your code here
