@@ -16,7 +16,6 @@ end
 def long_planeteer_calls(long_words)
   long_planeteer_calls.each do |name|
     if name.length > 4
-      puts "#{name}"
     end
   end
 
