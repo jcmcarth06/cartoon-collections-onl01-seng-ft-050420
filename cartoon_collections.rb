@@ -26,7 +26,7 @@ end
 def find_the_cheese(cheese)# code an argument here
   # the array below is here to help
   cheese.collect do |name|
-    if name.include?(cheese_types) 
+    if name.include?(cheese_types)
       return true
     end
   
